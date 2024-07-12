@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; 
+@tailwind utilities;
+
+.hero-image{
+    object-position: 50% 19%;
+}
+#imagediv{
+    transition: transform ease 0.5s ;
+}
+#hoveredText{
+    transition: all ease 0.3s;
+}
